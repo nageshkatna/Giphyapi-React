@@ -11,7 +11,7 @@ const Home = () => {
 
   useEffect(() => {
     axios(
-      `http://api.giphy.com/v1/gifs/search?q=${query}&limit=24&api_key=WnTEYVz8yJSXIH1ZF4mLgRF33Ey4oC1g`
+      `http://api.giphy.com/v1/gifs/search?q=${query}&api_key=${process.env.REACT_APP_API_KEY}`
     )
       .then((res) => {
         setData(res.data.data);
