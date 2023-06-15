@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Steps to do Initial Setup
+
+1. Run `npm install` to install all the dependencies at the first.
+
+2. Create `.env` file and add the environment variable `REACT_APP_API_KEY=WnTEYVz8yJSXIH1ZF4mLgRF33Ey4oC1g` in the file.
+
+3. Run the script `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
